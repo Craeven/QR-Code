@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(228, 228, 241);
+}
+
+main {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #d5e1ef;
+  display: flex;
+  place-items: center;
+}
+
+.item-container {
+  background: #fff;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 16px;
+  /* outline: 1px solid red; */
+  margin: 0 auto;*/
+  box-shadow: 4px 2px 50px grey;
+}
+.card-header {
+  font-size: 10px;
+  line-height: 1.3;
+  /* padding-bottom: 8px; */
+  /* outline: 1px solid red; */
+  width: 150px;
+  padding-bottom: 4px;
+  margin: 0 auto;
+}
+.card-paragraph {
+  font-size: 8px;
+  line-height: 1.2;
+  width: 32ch;
+  letter-spacing: 1.6;
+  margin: 0 auto;
+  /* padding-bottom: 10px; */
+  color: grey;
+  font-weight: 400;
+  padding-bottom: 24px;
+  /* outline: 1px solid red; */
+}
+
+.card-image {
+  width: 150px;
+  padding-bottom: 4px;
+  border-radius: 8px;
+  /* outline: 1px solid red; */
+}
+
+.main-container {
+  padding: 8px;
+}
